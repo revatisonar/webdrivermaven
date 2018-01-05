@@ -28,7 +28,7 @@ public class LoginTest {
 	
 	driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("9158251018");
 	driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("Revamit143");
-	
+	driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
 }
 	@After
 	public void tearDown(){
